@@ -1,137 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./libs/bootstrap/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="./libs/bootstrap/bootstrap-grid.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.13.0-web/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Polind</title>
-  </head>
-  <body>
-    <section class="section blog-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="heading">
-              <h1 class="heading__title">explore our top distination</h1>
-              <p class="heading__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
-                accusamus?
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="row offset-30">
-          <div class="col-xl-8">
-            <div class="block-item">
-              <img
-                class="img--bg"
-                src="./img/scenic-photo-of-lake-surrounded-by-trees-1903702.jpg"
-                alt="sky"
-              />
-              <div class="block-item__badge">
-                <i class="fas fa-ship"></i>
-                <span>420</span>
-              </div>
-              <div class="block-item__description">
-                <h3 class="block-item__city">
-                  <a href="#">Figueira da Foz</a>
-                </h3>
-                <span class="block-item__country">Portugal</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4">
-            <div class="block-item">
-              <img
-                class="img--bg"
-                src="./img/aerial-view-beach-beautiful-cliff-462162.jpg"
-                alt="sky"
-              />
-              <div class="block-item__badge">
-                <i class="fas fa-ship"></i>
-                <span>730</span>
-              </div>
-              <div class="block-item__description">
-                <h3 class="block-item__city">
-                  <a href="#">Ibiza</a>
-                </h3>
-                <span class="block-item__country">Spain</span>
-              </div>
-            </div>
-          </div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap-reboot.css" />
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap-classes.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="./fontawesome-free-5.13.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="./styles/style.css" />
+	<title>Nava</title>
+</head>
 
-          <div class="col-xl-4">
-            <div class="block-item">
-              <img
-                class="img--bg"
-                src="./img/clouds-daylight-forest-grass-371589.jpg"
-                alt="sky"
-              />
-              <div class="block-item__badge">
-                <i class="fas fa-ship"></i>
-                <span>730</span>
-              </div>
-              <div class="block-item__description">
-                <h3 class="block-item__city">
-                  <a href="#">Ibiza</a>
-                </h3>
-                <span class="block-item__country">Spain</span>
-              </div>
-            </div>
-          </div>
+<body>
 
-          <div class="col-xl-4">
-            <div class="block-item">
-              <img
-                class="img--bg"
-                src="./img/gray-bridge-and-trees-814499.jpg"
-                alt="sky"
-              />
-              <div class="block-item__badge">
-                <i class="fas fa-ship"></i>
-                <span>730</span>
-              </div>
-              <div class="block-item__description">
-                <h3 class="block-item__city">
-                  <a href="#">Ibiza</a>
-                </h3>
-                <span class="block-item__country">Spain</span>
-              </div>
-            </div>
-          </div>
+	<!-- mobile menu start -->
 
-          <div class="col-xl-4">
-            <div class="block-item">
-              <img
-                class="img--bg"
-                src="./img/nature-sky-sunset-the-mountains-66997.jpg"
-                alt="sky"
-              />
-              <div class="block-item__badge">
-                <i class="fas fa-ship"></i>
-                <span>730</span>
-              </div>
-              <div class="block-item__description">
-                <h3 class="block-item__city">
-                  <a href="#">Ibiza</a>
-                </h3>
-                <span class="block-item__country">Spain</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </body>
+	<div class="d-block d-md-none mobile-dropdown">
+		<div class="mobile-dropdown__inner">
+
+			<span class="mobile-dropdown__close"><i class="fas fa-times"></i></span>
+
+			<ul class="mobile-menu list--reset">
+				<li class="mobile-menu__item">
+					<a class="mobile-menu__link" href="#">top destinations</a>
+				</li>
+				<li class="mobile-menu__item">
+					<a class="mobile-menu__link" href="#">add your boat</a>
+				</li>
+			</ul>
+
+			<a class="mobile-menu__button" href="#">sign up</a>
+
+		</div>
+	</div>
+
+	<!-- mobile menu end -->
+
+	<!-- header start-->
+
+	<header class="page-header">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+
+				<div class="col-7 col-md-3 col-lg-4">
+
+					<a class="logo" href="index.html"><img src="./img/logo2.png" alt="logo"></a>
+
+				</div>
+
+				<div class="col-5 col-md-9 col-lg-8 text-right">
+
+					<ul class="d-none d-md-inline-flex menu list--reset">
+						<li class="menu__item">
+							<a class="menu__link" href="#">top destinations</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link" href="#">add your boat</a>
+						</li>
+					</ul>
+
+					<a class="d-none d-md-inline-block page-header__button" href="#">sign up</a>
+
+					<span class='d-inline-block d-md-none  menu-trigger'><i class='fas fa-bars'></i></span>
+
+				</div>
+			</div>
+	</header>
+
+	<!-- header end-->
+
+	<!-- main start -->
+	<main>
+
+		<!-- promo-banner start -->
+
+		<section class="promo-banner">
+			<img class="img--bg" src="./img/header.jpg" alt="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 align-middle">
+						<div class="align-container">
+							<div class="align-container__item">
+								<h2 class="promo-banner__title">reserve a boat now!</h2>
+								<p class="promo-banner__subtitle">and set your sails into paradise!</p>
+								<form class="form promo-form" action="javascript:void(0);" autocomplete="off">
+									<input class="form__field" type="text" name="subject"
+										placeholder="what is your destination, sailor?" />
+									<button class="form__submit" type="submit">
+										<img src="./img/sailboat-kopia2.png" alt="icon" />
+										<span>find a boat</span>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="d-none d-md-block counters-holder">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-lg-3 text-center">
+							<div class="counter-item">
+								<span class="counter-item__count js-counter">2,300</span>
+								<p class="counter-item__description">Destinations</p>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3 text-center">
+							<div class="counter-item">
+								<span class="counter-item__count js-counter">1,000</span>
+								<p class="counter-item__description">Cities</p>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3 text-center">
+							<div class="counter-item">
+								<span class="counter-item__count js-counter">35,000</span>
+								<p class="counter-item__description">Boats</p>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-3 text-center">
+							<div class="counter-item">
+								<span class="counter-item__count js-counter">50,000</span>
+								<p class="counter-item__description">Sailors</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- promo-banner end-->
+		<!-- 
+    <section class="details">
+
+    </section> -->
+
+
+		<!-- section start -->
+		<section class="section blocks-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="heading">
+							<h1 class="heading__title">explore our top distination</h1>
+							<p class="heading__text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+								accusamus?
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row offset-30">
+					<div class="col-lg-7 col-xl-8">
+						<div class="block-item">
+							<img class="img--bg" src="./img/scenic-photo-of-lake-surrounded-by-trees-1903702.jpg"
+								alt="sky" />
+							<div class="block-item__badge">
+								<i class="fas fa-ship"></i>
+								<span>420</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Figueira da Foz</a>
+								</h3>
+								<span class="block-item__country">Portugal</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 col-xl-4">
+						<div class="block-item">
+							<img class="img--bg" src="./img/aerial-view-beach-beautiful-cliff-462162.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<i class="fas fa-ship"></i>
+								<span>730</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<span class="block-item__country">Spain</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-5 col-xl-4">
+						<div class="block-item">
+							<img class="img--bg" src="./img/clouds-daylight-forest-grass-371589.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<i class="fas fa-ship"></i>
+								<span>730</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<span class="block-item__country">Spain</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-7 col-xl-4">
+						<div class="block-item">
+							<img class="img--bg" src="./img/gray-bridge-and-trees-814499.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<i class="fas fa-ship"></i>
+								<span>730</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<span class="block-item__country">Spain</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-4">
+						<div class="block-item">
+							<img class="img--bg" src="./img/nature-sky-sunset-the-mountains-66997.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<i class="fas fa-ship"></i>
+								<span>730</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<span class="block-item__country">Spain</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row ">
+					<div class="col-xl-12 text-center">
+						<a href="#" class="btn btn--white">Explore more destination</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section end -->
+
+		<!-- section start -->
+		<section class="section cta">
+			<img class='img--bg' src="./img/background.jpg" alt="boat">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<h2 class="cta__title">have your own boat?</h2>
+						<p class="cta__subtitle">navigare necesse est, vivere non est necesse</p>
+						<a href="#" class="btn btn--red">Make money with your boat</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- section end -->
+
+		<!-- section start -->
+		<section class="section blocks-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="heading">
+							<h1 class="heading__title">featured boats</h1>
+							<p class="heading__text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error,
+								accusamus?
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row offset-30">
+					<div class="col-lg-6">
+						<div class="block-item block-item--second">
+							<img class="img--bg" src="./img/one.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<span>$900/day</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Delphia 47</a>
+								</h3>
+								<div class="block-item__country">
+									<i class="fas fa-map-marker-alt"></i>
+									<span>Gdańsk, Poland</span>
+								</div>
+								<div class="block-item__country">
+									<i class="fas fa-user-friends"></i>
+									<span>8 Berths</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="block-item block-item--second">
+							<img class="img--bg" src="./img/two.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<span>$800/day</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<div class="block-item__country">
+									<i class="fas fa-map-marker-alt"></i>
+									<span>Gdańsk, Poland</span>
+								</div>
+								<div class="block-item__country">
+									<i class="fas fa-user-friends"></i>
+									<span>8 Berths</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="block-item block-item--second">
+							<img class="img--bg" src="./img/three.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<span>$730/day</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<div class="block-item__country">
+									<i class="fas fa-map-marker-alt"></i>
+									<span>Gdańsk, Poland</span>
+								</div>
+								<div class="block-item__country">
+									<i class="fas fa-user-friends"></i>
+									<span>8 Berths</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="block-item block-item--second">
+							<img class="img--bg" src="./img/four.jpg" alt="sky" />
+							<div class="block-item__badge">
+								<span>$400/day</span>
+							</div>
+							<div class="block-item__description">
+								<h3 class="block-item__city">
+									<a href="#">Ibiza</a>
+								</h3>
+								<div class="block-item__country">
+									<i class="fas fa-map-marker-alt"></i>
+									<span>Gdańsk, Poland</span>
+								</div>
+								<div class="block-item__country">
+									<i class="fas fa-user-friends"></i>
+									<span>8 Berths</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-12 text-center">
+						<a href="#" class="btn btn--white">Load more boats</a>
+					</div>
+				</div>
+
+			</div>
+			</div>
+		</section>
+		<!-- section end -->
+	</main>
+	<!-- main end -->
+
+	<!-- footer start -->
+	<footer class='page-footer'>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+					<h3 class="footer__title">top locations</h3>
+					<ul class="footer__menu list--reset">
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-sm-4 col-lg-3 col-xl-2">
+					<h3 class="footer__title">feautured boats</h3>
+					<ul class="footer__menu list--reset">
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-sm-4 col-lg-2 col-xl-2 top-40 top-xs-none">
+					<h3 class="footer__title">contact us</h3>
+					<ul class="footer__menu list--reset">
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Lorem, ipsum.</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-8 col-lg-4 col-xl-5 offset-xl-1 top-40 top-md-none">
+					<h3 class="footer__title">subscribe to our newsletter</h3>
+					<form class="form footer-form" action="javascript:void(0);" autocomplete="off">
+						<input class="form__field" type="text" name="subject" placeholder="Your email adress" />
+						<button class="form__submit" type="submit">
+							<span>subscribe</span>
+						</button>
+					</form>
+					<ul class="socials list--reset">
+						<li class="socials__item">
+							<a class="socials__link" href="#"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="socials__item">
+							<a class="socials__link" href="#"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="socials__item">
+							<a class="socials__link" href="#"><i class="fab fa-google-plus-g"></i></a>
+						</li>
+					</ul>
+				</div>
+
+
+
+
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="./libs/counter/counter.js"></script>
+	<script src="./libs/waypoints/waypoints.js"></script>
+	<script src="./js/common.js"></script>
+</body>
+
 </html>
